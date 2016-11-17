@@ -1,0 +1,157 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+/*Main page style*/
+.container
+{
+position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  overflow: auto;
+  background: black;
+}
+
+/*First part*/
+.box1
+{
+	background-color: #FF8A66;
+	height: 20em;
+	width: 80%;
+	box-shadow: 0px 3px 3px 0px rgba(0,0,0.9,0.9);
+ 
+}
+
+/*mini part*/
+.minibox
+{
+	background-color: white;
+	width: 30%;
+	height:2em;
+	margin-top: 17px;
+}
+
+/*Second Part*/
+.box2
+{
+	background-color: #EDEDED;
+	height: 6em;
+	width: 80%;
+	margin-left: -0.11%;
+	box-shadow: 0px 3px 3px 0px rgba(0,0,0,0.9);
+	
+}
+
+.box22
+{
+	background-color: #EDEDED;
+	height: 25em;
+	width: 80%;
+	margin-left: -0.11%;
+	box-shadow: 0px 3px 3px 0px rgba(0,0,0,0.9);
+	
+}
+
+
+
+.STORY
+{
+	padding: 1%;
+ float:left;
+ height:3em;
+ width: 25%;
+ background-color: #EDEDED;
+}
+
+.currentJobs
+{
+margin-top: -3.5%;
+margin-right: 6px;
+float:right;
+ height:3em;
+ width: 20%;	
+}
+
+.Profile
+{
+ height:3em;
+ width: 25%;
+ }
+ .imagecontainer
+ {
+ 	height: 12em;
+ 	width: 100%;
+ 	background-color:#546F7A; 
+
+ }
+
+.first
+{
+	width: 2em;
+	color: black;
+    margin-bottom: 50%;
+}
+
+
+.list
+ {
+ 	box-shadow: 0px 3px 3px 0px rgba(0.9,0.9,0.9,0.9);
+ 	height: 10em;
+ 	width: 100%;
+ 	padding-right: -20%;
+ 	background-color:white; 
+ 	box-shadow: 0,5px,5px,0 rgba(0.2 0.3 0.5 0.9)
+   
+ }
+
+ 
+li
+{
+	list-style: none;
+}
+a
+{
+text-decoration-style: none;
+}
+h1
+{
+	color: white;
+	font-size: 50px;
+}
+
+h2
+{
+	font-size:15px;
+	box-shadow: 0,5px,5px,0 rgba(0.2 0.3 0.5 0.9)
+	border:2px solid black;
+	text-align: center;
+}
+p
+{
+	font-family: cursive;
+	font-size: 20px;
+}
+h5
+{
+	background-color: #546F7A;
+	margin-top: 5%;
+}
+img
+{
+	background-color: #546F7A;
+	margin-top: 5%;
+}
+.buttons {
+	padding: 10px;
+}
+ul> div > li > a {
+	text-decoration: none;
+	text-shadow: black;
+	color: red;
+	font-family: tahoma;
+}
+.buttons:hover {
+	background-color: black;
+}
